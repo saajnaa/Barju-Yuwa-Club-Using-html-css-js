@@ -1,0 +1,181 @@
+@media only screen and (max-width: 414px) {
+
+
+
+    body {
+        background-color: lightblue;
+    }
+
+
+    /* Section Top Responsive */
+    /* Section Top Responsive */
+    .Section_top {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+
+    .Section_top h1 {
+        color: hwb(108 96% 2%);
+        position: relative;
+        top: 19vh;
+        font-weight: 900;
+        font-size: 5.7vw;
+
+    }
+
+
+    .Section_top .explore {
+        position: relative;
+        top: 22vh;
+        background: #034e88;
+        color: #fff;
+        padding: 10px 50px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 30px;
+        display: inline-block;
+        width: 30%;
+        transition: all .09s;
+    
+    }
+
+
+    .team
+
+
+    /* team section responsive */
+ 
+.person{
+
+margin-top: 20px;
+    height: 35vh;
+
+}
+
+.person img {
+
+height: 30vw;
+width: 30vw;
+
+}
+
+.person a{
+
+
+font-size: 18px;
+
+}
+
+
+    /* Donation section Respoinsive */
+
+
+    .donation-sec h2 {
+
+        font-size: 8vw;
+
+    }
+
+    .bank-ac {
+
+        margin: 4px 0;
+        width: 100%;
+
+    }
+
+
+    .bank-ac .p1 {
+
+        font-size: 5vw;
+        text-align: center;
+        color: rgb(43, 238, 13);
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+
+    .bank-ac p {
+
+        margin: 1px 0;
+        font-weight: 400;
+
+    }
+
+
+
+    .ac-container {
+
+        width: 98%;
+        margin: auto;
+
+    }
+
+    .ac-img-container img {
+
+        height: 25vw;
+        width: 25vw;
+        margin-bottom: 5px;
+
+    }
+
+
+
+
+    /* contact code section responsive */
+    .facebook-page-container {
+
+        display: none;
+
+    }
+
+    form .title {
+
+        font-family: sans-serif;
+
+    }
+
+    .facebook-container-mobile {
+
+        display: flex;
+        height: 200px;
+        width: 100%;
+        border: 1px solid red;
+
+
+    }
+
+
+    /* Footer Code Responsive */
+    /* Footer Code Responsive */
+    footer {
+
+        padding: 8px 0;
+
+    }
+
+    .box-container {
+
+        gap: 5px;
+        align-items: normal;
+
+
+    }
+
+    /* developer's code responsive in footer */
+    .dev-sec .p1 {
+        font-size: 13.5px;
+
+    }
+
+    .dev-sec p {
+
+        font-size: 12.5px;
+
+    }
+
+
+}
