@@ -1,37 +1,32 @@
 // swipper js code
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 40,
-    loop:true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+  slidesPerView: 1.6,
+  spaceBetween: 40,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  //swipper responsive
+  breakpoints: {
+    600: {
+      slidesPerView: 3,
     },
- 
- 
- //swipper responsive
- breakpoints: {
-  360: {
-    slidesPerView: 1.6
   },
+});
 
-  361:{
+// Responsive Nav BAr Logic =================================
+// Responsive Nav BAr Logic =================================
 
-slidesPerView: 3
+const mobile_navbar_btn = document.querySelector(".mobile-navbar-btn");
 
-  },
+const nav = document.querySelector("nav");
 
+nav.classList.remove("active")
 
-  1000:{
+const toggle_nav_bar = () => {
+  nav.classList.toggle("active");
+};
 
-    slidesPerView: 4
-    
-      }
-
-
-}
- 
- 
-  });
-
-  
+mobile_navbar_btn.addEventListener("click", () => toggle_nav_bar());

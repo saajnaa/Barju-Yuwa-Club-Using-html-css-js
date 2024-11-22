@@ -14,6 +14,7 @@ html {
     height: 100vh;
     font-family: sans-serif;
     overflow-x: hidden;
+     
 }
 
 
@@ -31,7 +32,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 2;
-
+    align-items: center;
 }
 
 .logo {
@@ -41,7 +42,7 @@ nav {
     align-items: center;
     gap: 5px;
     width: 310px;
-    margin-left: 20px;
+    margin-left: 15px;
     cursor: pointer;
 }
 
@@ -71,7 +72,7 @@ nav {
     justify-content: right;
     gap: 25px;
     font-size: 19px;
-    padding-right: 40px;
+margin-right: 15px;
 
 }
 
@@ -96,6 +97,36 @@ nav {
     color: rgb(0, 217, 255);
 
 }
+
+.mobile-navbar-btn{
+
+
+display: none;
+ margin-right: 15px;
+cursor: pointer;
+background: transparent;
+
+}
+
+
+
+.mobile-navbar-icon1 , .mobile-navbar-icon2{
+
+
+font-size: 30px;
+
+
+}
+
+.mobile-navbar-icon2{
+
+display: none;
+
+
+}
+
+
+
 
 /* ==== Section Top ==== */
 /* ==== Section Top ==== */
@@ -154,7 +185,7 @@ nav {
     color: #fff;
     padding: 10px 24px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vw;
     border-radius: 30px;
     display: inline-block;
     width: 30%;
@@ -200,7 +231,7 @@ nav {
 
 .our-works {
     width: 100%;
- 
+
 }
 
 .our-works h2 {
@@ -225,7 +256,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(245, 245, 245, 0.67);
+    color: rgb(235, 237, 237);
 
 }
 
@@ -239,7 +270,7 @@ nav {
     margin: auto;
     padding: 10px;
     background: blue;
-    border-radius: 10px;
+    border-radius: 50px;
     transition: all .2s;
 
 }
@@ -274,7 +305,7 @@ nav {
     margin: 0 8px;
     padding-bottom: 20px;
     border-radius: 2px;
-    background: rgba(185, 231, 237, 0.538);
+    background: rgb(185, 231, 237);
     gap: 10px;
     transition: all .2s;
     cursor: pointer;
@@ -315,15 +346,20 @@ nav {
 
 }
 
+.hr2 {
 
+    display: none;
+
+
+}
 
 /* teams section styling */
 /* teams section styling */
 .teams-section {
 
     width: 96%;
-   
-   
+
+
 
 
 }
@@ -414,9 +450,9 @@ nav {
 
 }
 
-.person .p-phone{
+.person .p-phone {
 
-color: rgba(51, 234, 18, 0.867);
+    color: rgba(51, 234, 18, 0.867);
 
 }
 
@@ -430,7 +466,7 @@ color: rgba(51, 234, 18, 0.867);
 .person .a4 {
 
     margin-bottom: 30px;
-color: rgb(216, 216, 6);
+    color: rgb(216, 216, 6);
 
 }
 
@@ -666,7 +702,9 @@ form {
     }
 
     .message .form-control {
+
         padding: .1rem 1.8rem;
+
     }
 
     ::placeholder {
@@ -837,6 +875,12 @@ footer {
 
 }
 
+.pq1 a>i:hover {
+
+    color: rgba(4, 84, 17, 0.849);
+}
+
+
 
 .box .iframe-container {
 
@@ -869,10 +913,7 @@ footer {
 
 }
 
-.box .qp1:hover i {
 
-    color: green;
-}
 
 .box p>a {
 
@@ -888,10 +929,6 @@ footer {
 }
 
 
-.box p>i {
-
-    color: rgba(13, 4, 84, 0.849);
-}
 
 
 
